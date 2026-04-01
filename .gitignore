@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+backend/database/app.db
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+backend/data/faiss_index/*
+!backend/data/faiss_index/.gitkeep
+frontend/node_modules/
+frontend/dist/
