@@ -1,7 +1,7 @@
 from pathlib import Path
 
 from langchain.docstore.document import Document as LCDocument
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_openai import ChatOpenAI
 

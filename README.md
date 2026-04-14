@@ -138,3 +138,18 @@ Frontend runs on `http://localhost:5173`.
 - FAISS data persists in `backend/data/faiss_index/`.
 - Uploaded files persist in `backend/data/uploads/`.
 - Default local setup uses SQLite and does not require MySQL client libraries.
+
+
+.\.venv\Scripts\Activate.ps1
+
+
+
+Admin Password:
+swasthik@example.com
+swasthik123
+
+inspecting db:
+python .\inspect_db.py
+
+Deactivating venv:
+deactivate

@@ -4,10 +4,10 @@ Flask-Cors==5.0.0
 Flask-JWT-Extended==4.7.1
 Flask-SQLAlchemy==3.1.1
 PyPDF2==3.0.1
-SpeechRecognition==3.10.4
-faiss-cpu==1.8.0.post1
+faiss-cpu==1.13.2
 langchain==0.3.19
 langchain-community==0.3.18
+langchain-huggingface==0.1.2
 langchain-openai==0.3.7
 openai==1.65.2
 python-dotenv==1.0.1
